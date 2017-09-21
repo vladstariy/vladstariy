@@ -10,9 +10,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            //34235gw
-            //eggegr
-            // asdsadsad
+            //приём 
 
         }
     }
