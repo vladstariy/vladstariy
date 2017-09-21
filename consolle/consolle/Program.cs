@@ -12,7 +12,6 @@ namespace consolle
         {
             //1234fggвдм
             //asdsadsad
-            //sadsad asd
         }
     }
 }
