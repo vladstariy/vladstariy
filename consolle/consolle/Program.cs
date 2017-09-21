@@ -11,6 +11,7 @@ namespace consolle
         static void Main(string[] args)
         {
             //1234fggвдм
+            //asdsadsad
         }
     }
 }
