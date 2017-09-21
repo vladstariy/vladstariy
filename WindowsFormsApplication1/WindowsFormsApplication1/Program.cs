@@ -15,6 +15,8 @@ namespace WindowsFormsApplication1
         static void Main()
         {
             //приём
+            // приём номер 2
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
