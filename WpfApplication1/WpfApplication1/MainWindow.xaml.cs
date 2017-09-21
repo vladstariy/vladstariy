@@ -21,7 +21,7 @@ namespace WpfApplication1
     public partial class MainWindow : Window
     {
         public MainWindow()
-        {//ekwgnjwegnweigo
+        {//и тут
             InitializeComponent();
         }
     }
