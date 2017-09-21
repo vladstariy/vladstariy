@@ -22,6 +22,7 @@ namespace WpfApplication1
     {
         public MainWindow()
         {//и тут
+            // и тут тоже нормальная связь
             InitializeComponent();
         }
     }
