@@ -12,6 +12,7 @@ namespace ConsoleApplication1
         {
             //приём 
             // приём приём
+            //отлично
 
         }
     }
