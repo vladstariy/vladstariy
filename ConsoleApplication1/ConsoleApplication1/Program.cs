@@ -18,6 +18,7 @@ namespace ConsoleApplication1
         private string login;
         private string password;
 
+        // сравнение по длине юзера + длина пароля
         public int CompareTo(User other)
         {
             if ((this.login.Length + this.password.Length) > (other.login.Length + other.password.Length))
@@ -43,7 +44,7 @@ namespace ConsoleApplication1
 
             if (u1.CompareTo(u2) == 1)
             {
-                Console.WriteLine("Первый пользователь");
+                Console.WriteLine("Первый пользователь"); // у него сумма длин пароля и логина больше
             }
             if (u1.CompareTo(u2) == -1)
             {
