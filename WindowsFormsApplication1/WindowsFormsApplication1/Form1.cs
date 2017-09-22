@@ -21,12 +21,15 @@ namespace WindowsFormsApplication1
         {
             string s = textBox1.Text;
             int num = 0;
+            // преобразую строку в число
             if (int.TryParse(s, out num))
             {
+                // если получилось  то в заголовок
                 this.Text = num.ToString();
             }
             else
             {
+                // если нет, то в статус бар
                 toolStripStatusLabel1.Text = s;
             }
             
