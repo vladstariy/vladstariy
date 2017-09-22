@@ -10,9 +10,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            //приём 
-            // приём приём
-            //отлично
+            //создать класс user c закрытыми полями login и password.перегрузить метод Icomparable стандартного унаследованного интерфейса Icomparable,который сравнивает пользователей по login и password.Создат три пользователя и сравнить их.
+        
 
         }
     }
