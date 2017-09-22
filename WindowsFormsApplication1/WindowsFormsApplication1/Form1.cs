@@ -16,5 +16,20 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string s = textBox1.Text;
+            int num = 0;
+            if (int.TryParse(s, out num))
+            {
+                this.Text = num.ToString();
+            }
+            else
+            {
+                toolStripStatusLabel1.Text = s;
+            }
+            
+        }
     }
 }
