@@ -20,11 +20,11 @@ namespace ConsoleApplication1
 
         public int CompareTo(User other)
         {
-            if (this.login.Length > other.login.Length)
+            if ((this.login.Length + this.password.Length) > (other.login.Length + other.password.Length))
             {
                 return 1;
             }
-            if (this.login.Length < other.login.Length)
+            if ((this.login.Length + this.password.Length) < (other.login.Length + other.password.Length))
             {
                 return -1;
             }
@@ -43,15 +43,20 @@ namespace ConsoleApplication1
 
             if (u1.CompareTo(u2) == 1)
             {
-                Console.WriteLine("Длина логина у первого больше");
+                Console.WriteLine("Первый пользователь");
             }
             if (u1.CompareTo(u2) == -1)
             {
-                Console.WriteLine("Длина логина у второго больше");
+                Console.WriteLine("Второй пользователь");
             }
-            if (u1.CompareTo(u3) == 0)
+
+            if (u2.CompareTo(u3) == -1)
             {
-                Console.WriteLine("Длины одинаковые");
+                Console.WriteLine("Второй пользователь");
+            }
+            else
+            {
+                Console.WriteLine("Третий пользователь");
             }
 
 
