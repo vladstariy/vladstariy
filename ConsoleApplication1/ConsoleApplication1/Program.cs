@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace ConsoleApplication1
 {
     class User : IComparable<User>
+        //Артём,посмотри вк
     {
         public User(string login, string pass)
         {
@@ -35,7 +36,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            //создать класс user c закрытыми полями login и password.перегрузить метод Icomparable стандартного унаследованного интерфейса Icomparable,который сравнивает пользователей по login и password.Создат три пользователя и сравнить их.
+            
             User u1 = new User("user1", "pass1");
             User u2 = new User("user123", "pass2");
             User u3 = new User("user1", "pass3");
