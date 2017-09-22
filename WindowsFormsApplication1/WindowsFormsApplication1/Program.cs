@@ -14,8 +14,7 @@ namespace WindowsFormsApplication1
         [STAThread]
         static void Main()
         {
-            //приём
-            // приём номер 2
+            //Раздработайте программу на c# winForm.форма должна содержать поле ввода.Если пользователь ввёл числа,введённые данные отображаются в заголовке окна,если в текст-в строке состояния
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
